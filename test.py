@@ -6,6 +6,9 @@ import sys
 def add(a, b):
     return a + b
 
+def mul(a, b):
+    return a - b
+
 def get_os():
     print(commands.getoutput("uname -a"))
 
